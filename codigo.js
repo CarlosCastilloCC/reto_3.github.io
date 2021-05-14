@@ -29,6 +29,12 @@ let switche = document.querySelector("#switch");
         rango.style.background = color;
 
         printPageViews()
+        if(switche.checked == true){
+            let x = precio.textContent*0.25;
+            precio.textContent = precio.textContent - x;
+        }else{
+            printPageViews() 
+        }
     });
 
     switche.addEventListener("input",function(){

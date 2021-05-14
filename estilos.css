@@ -55,7 +55,8 @@ h6{
 .sombra{
     background-color: hsl(0, 0%, 100%);
     box-shadow: 1px 1px 24px lightgrey;
-    max-width: 65%;
+    max-width: 550px;
+    width: 100%;
 }
 
 .visitas{
@@ -82,7 +83,7 @@ h6{
     margin: 10px auto;
     outline: none;
     cursor: pointer;
-    background: linear-gradient(90deg, rgb(165, 243, 235) 25% ,hsl(0, 3%, 85%) 25% );
+    background: linear-gradient(90deg, rgb(165, 243, 235) 50% ,hsl(0, 3%, 85%) 50% );
 }
 
 .rango::-webkit-slider-thumb{
